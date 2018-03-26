@@ -1,0 +1,20 @@
+
+<%= form_for :calculator, url: { action: :new }, method: :get do |f|   %>
+
+	<h1>Loan Calculator</h1>
+  <p>Calculate monthly payments for any fixed rate loan.</p>
+	<div>
+		<label for="principal-input">Principal</label>
+    <%= number_field_tag :loan, params[:loan] %>
+	</div>
+	<div>
+		<label for="interest-input">Interest</label>
+    <%= number_field_tag :rate, params[:rate], :step => 0.01 %>
+	</div>
+	<div>
+		<label for="months-input">Months</label>
+    <%= number_field_tag :time, params[:time] %>
+	</div>
+	<p><strong>Payment:</strong> <span id="result-text"><%= @payment %></span></p>
+  <button><%= f.submit 'Calculate Payment' %></button>
+<% end %>
