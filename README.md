@@ -15,9 +15,9 @@ You can clone the project here: https://github.com/marzann/loan_calc.git.
 
 ## Usage
 
-Tests have been set up based on the rspec gem. Please examples below.
+Tests have been set up based on the rspec gem. Please see examples below.
 
-To run tests, make sure you are in the project's directory, and issue to following command: rspec spec.
+To run tests, make sure you are in the project's directory, and issue the following command: rspec spec.
 
 Additional information on rspec can be found here: http://rspec.info.
 
@@ -70,4 +70,4 @@ This app is available as open source under the terms of the [MIT License](https:
 
 ## Code of Conduct
 
-Everyone interacting in the LoanCalc project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/marzann/loan_calc/CODE_OF_CONDUCT.md).
+Everyone interacting in the LoanCalc project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/marzann/loan_calc/blob/master/CODE_OF_CONDUCT.md).
